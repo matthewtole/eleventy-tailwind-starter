@@ -4,7 +4,8 @@
   "description": "My starter template for building a site with Eleventy and Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eleventy",
+    "dev": "eleventy --serve"
   },
   "repository": {
     "type": "git",
